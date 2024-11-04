@@ -34,12 +34,13 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 70px;
     position: absolute;
     height: 100%;
     top: 0;
     left: 0;
 }
+
 
 
 .navbar {
@@ -155,18 +156,46 @@ nav {
 /*Learning paths page Stylesheet*/
 .learning {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    flex-direction: column;
 }
+
+.learning .path {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+    margin: 0 10%;
+}
+
+.path img {
+    margin: 3px;
+    
+}
+
+
+
+.judul {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
 
 /*Our Product page Stylesheet*/
 .our {
     display: flex;
     justify-content: center;
     background-color: #000;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
 }
 
 .our h1 {
     color: #fff;
+    margin-bottom: 30px;
 }
 
 
