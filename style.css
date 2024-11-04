@@ -13,12 +13,13 @@ body {
     font-weight: 500;
 }
 
-section{
+section {
     padding: 50px 10%;
 }
 
 /*Navbar stylesheet*/
-nav {width: 100%;
+nav {
+    width: 100%;
     top: 0;
     right: 0;
     z-index: 1000;
@@ -29,7 +30,7 @@ nav {width: 100%;
     background-color: black;
 }
 
-.logo img{
+.logo img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,18 +44,20 @@ nav {width: 100%;
 
 .navbar {
     display: flex;
-    list-style-type: none;  
+    list-style-type: none;
 
 }
- 
+
 .navbar li {
     margin: 20px 0
 }
+
 .navbar li a {
     font-size: 20px;
     color: aliceblue;
     padding: 20px 20px;
 }
+
 .navbar li a:hover {
     background-color: aliceblue;
     color: #002c42;
@@ -78,8 +81,8 @@ nav {width: 100%;
 }
 
 .slider .list img {
-    width: 100vw; 
-    height: 100%; 
+    width: 100vw;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -93,7 +96,7 @@ nav {width: 100%;
     justify-content: space-between;
     transform: translateY(-50%);
     opacity: 0;
-    
+
 }
 
 .slider .buttons button {
@@ -132,6 +135,21 @@ nav {width: 100%;
 
 .slider .dots li.active {
     width: 20px;
+}
+
+
+.wp3 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    z-index: 1;
 }
 
 /*Learning paths page Stylesheet*/
@@ -297,7 +315,3 @@ body {
     background-color: #000;
     margin-top: 75px;
 }
-
-
-
-
