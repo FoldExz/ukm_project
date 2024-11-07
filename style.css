@@ -156,7 +156,7 @@ nav {
 /*Learning paths page Stylesheet*/
 .learning {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -169,8 +169,8 @@ nav {
 }
 
 .path img {
-    margin: 3px;
-    
+    margin: 5px;
+
 }
 
 
@@ -181,6 +181,15 @@ nav {
     margin-bottom: 30px;
 }
 
+.path-hover {
+    transition: transform 0.3s ease;
+}
+
+a:hover .path-hover {
+    transform: scale(1.1);
+}
+
+
 
 
 /*Our Product page Stylesheet*/
@@ -188,14 +197,88 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #000;
-    flex-wrap: wrap;
+    flex-direction: column;
     top: 0;
     left: 0;
 }
 
 .our h1 {
+    text-align: center;
     color: #fff;
     margin-bottom: 30px;
+}
+
+.our .container-order {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.container-order .menu {
+    margin: 10px 20px;
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.menu:hover {
+    transform: scale(1.1);
+}
+
+.menu img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.menu .titleplace {
+    position: relative;
+    top: -5px;
+    margin: 0;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #15181f;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.titleplace .title {
+    margin: 0;
+    padding: 15px;
+
+}
+
+.titleplace a {
+    padding: 13px 20px;
+    margin: 0 30px 0 0;
+    background-color: #101010;
+    color: #f0f0f0;
+    border-radius: 20px;
+    font-weight: 550;
+}
+
+.titleplace a:hover {
+    background-color: #333;
+}
+
+.title h2 {
+    color: #f0f0f0;
+    padding: 0 0 15px 12px;
+}
+
+.title p {
+    color: #7a7b7f;
+    padding: 0 0 12px 12px;
 }
 
 
